@@ -41,7 +41,7 @@ public:
 
 
 
-
+/*
 int main()
 {
     Rectangle box;
@@ -57,4 +57,4 @@ int main()
     cout << "Area = " << box.getArea() << " cm\n";    
 }
 
-
+*/
