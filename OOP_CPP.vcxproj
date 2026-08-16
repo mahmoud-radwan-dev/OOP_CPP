@@ -126,9 +126,11 @@
     <ClCompile Include="Car.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="oop_test.cpp" />
+    <ClCompile Include="Rectangle.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Car.h" />
+    <ClInclude Include="Rectangle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

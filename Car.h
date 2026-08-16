@@ -8,6 +8,7 @@ private:
 	int model;
 	string color;
 public:
+	Car(string mak, int mo, string col);
 	void setMaker(string makerName);
 	string getMaker();
 	void setModel(int mod);
@@ -16,4 +17,3 @@ public:
 	string getColor();
 
 };
-

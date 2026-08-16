@@ -1,5 +1,9 @@
 #include "Car.h"
 
+Car::Car(string mak, int mo, string col): maker(mak), model(mo), color(col)
+{
+}
+
 void Car::setMaker(string makerName) {
 	maker = makerName;
 }
@@ -21,7 +25,6 @@ void Car::setColor(string colorName)
 {
 	color = colorName;
 }
-
 
 string Car::getColor()
 {
